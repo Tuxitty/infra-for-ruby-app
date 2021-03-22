@@ -1,5 +1,6 @@
 
 # infra-for-ruby-app
+This repo is for Mable case study, of creating AWS VPC & EKS resources, and a Simple Ruby on rails app for Database connection.
 
 ## The `vpc` component creates an AWS VPC with:
 - 3 public subnets
