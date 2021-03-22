@@ -25,7 +25,6 @@ resource "aws_internet_gateway" "main" {
 
 resource "aws_route_table" "public" {
   vpc_id           = aws_vpc.main.id
-  propagating_vgws = var.public_propagating_vgws
 }
 
 resource "aws_route" "public_internet_gateway" {
@@ -53,7 +52,6 @@ resource "aws_subnet" "private" {
 
 resource "aws_route_table" "private" {
   vpc_id           = aws_vpc.main.id
-  propagating_vgws = var.private_propagating_vgws
   count            = var.aws_subnets_count
 }
 
