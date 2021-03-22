@@ -15,3 +15,9 @@
 ## The `ruby-app` component creates a basic Ruby on Rails app Docker image
 - The app includes a short code sample for SQL satabase connection.
 - Output of this component is a Docker image for this Ruby app, which can be stored on Docker hub or AWS ECR etc.
+
+## Prerequisite of creating Infrastructure resourses using this repo
+#### Installation
+- terraform (>=0.13)
+- docker
+- eksctl
