@@ -16,8 +16,9 @@
 - The app includes a short code sample for SQL satabase connection.
 - Output of this component is a Docker image for this Ruby app, which can be stored on Docker hub or AWS ECR etc.
 
-## Prerequisite of creating Infrastructure resourses using this repo
+## Prerequisite of creating and using resourses in this repo
 #### Installation
-- terraform (>=0.13)
-- docker
-- eksctl
+- terraform (>=0.12)
+- docker (>=19)
+- awscli (>=1.19)
+- eksctl (>=0.28)
