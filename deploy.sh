@@ -1,4 +1,4 @@
-#/bin/sh -e
+#!/bin/sh -e
 
 AWS_REGION="ap-southeast-2"
 AWS_ACCOUNT="<myaccountid>"
