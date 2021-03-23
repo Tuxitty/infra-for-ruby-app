@@ -15,9 +15,10 @@ This repo is for Mable case study, of creating AWS VPC & EKS resources, and a Si
 - refer to: https://github.com/terraform-aws-modules/terraform-aws-eks
 - Code has been tested working.
 
-## The `ruby-app` component creates a basic Ruby on Rails app Docker image
-- The app includes a short code sample for SQL satabase connection.
-- Output of this component is a Docker image for this Ruby app, which can be stored on Docker hub or AWS ECR etc.
+## The `ruby-app` component 
+- It creates a basic Ruby on Rails app Docker image
+- The app includes a short code sample for SQL database connection.
+- Output of this component is a Docker image for the Ruby on rails app, which can be stored on Docker hub or AWS ECR etc.
 - Code is not fully tested.
 
 ## The `deploy.sh` script
